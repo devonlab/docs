@@ -14,6 +14,12 @@ The good thing about coupling your documentation with the source repo is, whenev
 2. Edit site settings in  `_config.yml` file according to your project. !!! `baseurl` should be your website's relative URI like `/my-proj` !!!
 3. Replace `favicon.ico` and `assets/img/logonav.png` with your own logo.
 
+[GitHub Pages](https://pages.github.com)는 자동으로 웹사이트를 생성하여 제공할 수 있습니다. 사용자 이름/조직이 `my-org` 이고 프로젝트가 `my-proj` 라고 가정할 때, `master` 브랜치의 문서 폴더 아래에 있는 지킬 소스를 리포지토리 `github.com/my-org/my-proj`에서 찾으면 웹사이트가 `my-org.github.io/my-proj`에 서비스됩니다. 문서를 소스 리포지토리에 연결하면 좋은 점은 마스터 브랜치에 관련 콘텐츠를 병합할 때마다 웹페이지에도 즉시 게시된다는 것입니다.
+
+1. `docs` 폴더 아래의 리포지토리에 [소스를 다운로드](https://github.com/aksakalli/jekyll-doc-theme/archive/gh-pages.zip) 하기만 하면 됩니다.
+2. 프로젝트에 따라 `_config.yml` 파일에서 사이트 설정을 편집합니다. !!! `baseurl`은 `/my-proj`와 같은 웹사이트의 상대 URI여야 합니다 !!!
+3. `favicon.ico` 및 `assets/img/logonav.png`를 고유 로고로 바꿉니다.
+
 ## Writing content
 
 ### Docs
